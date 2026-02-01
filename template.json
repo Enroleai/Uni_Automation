@@ -1,0 +1,65 @@
+{
+  "name": "University Name",
+  "url": "https://university.edu",
+  "signup_url": "https://university.edu/signup",
+  "login_url": "https://university.edu/login",
+  "application_url": "https://university.edu/apply",
+  "email_domain": "university.edu",
+  "requires_email_verification": true,
+  "notes": {
+    "signup_process": "Describe the signup process here",
+    "special_requirements": "Any CAPTCHA, multi-step, or special requirements",
+    "testing_notes": "Notes from testing"
+  },
+  "signup_field_mapping": {
+    "first_name": "# CSS selector for first name",
+    "last_name": "# CSS selector for last name",
+    "email": "# CSS selector for email",
+    "phone": "# CSS selector for phone (optional)",
+    "password": "# CSS selector for password"
+  },
+  "field_mapping": {
+    "first_name": "# CSS selector",
+    "middle_name": "# CSS selector",
+    "last_name": "# CSS selector",
+    "email": "# CSS selector",
+    "phone": "# CSS selector",
+    "date_of_birth": "# CSS selector (format: YYYY-MM-DD)",
+    "gender": "# CSS selector (select/dropdown)",
+    "nationality": "# CSS selector",
+    "address_line1": "# CSS selector",
+    "address_line2": "# CSS selector",
+    "city": "# CSS selector",
+    "state": "# CSS selector (select/dropdown)",
+    "postal_code": "# CSS selector",
+    "country": "# CSS selector (select/dropdown)",
+    "high_school_name": "# CSS selector",
+    "graduation_year": "# CSS selector",
+    "gpa": "# CSS selector",
+    "sat_score": "# CSS selector",
+    "act_score": "# CSS selector",
+    "intended_major": "# CSS selector (select/dropdown)",
+    "extracurriculars": "# CSS selector (textarea)"
+  },
+  "field_types": {
+    "date_of_birth": "date",
+    "gender": "select",
+    "state": "select",
+    "country": "select",
+    "intended_major": "select",
+    "extracurriculars": "textarea"
+  },
+  "multi_page": false,
+  "pages": [
+    {
+      "page_number": 1,
+      "url": "https://university.edu/apply/page1",
+      "fields": [
+        "first_name",
+        "last_name",
+        "email"
+      ],
+      "next_button": "#nextButton"
+    }
+  ]
+}

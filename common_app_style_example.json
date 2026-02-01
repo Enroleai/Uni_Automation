@@ -1,0 +1,20 @@
+{
+  "name": "Common Application Style University",
+  "url": "https://apply.university.edu",
+  "signup_url": "https://apply.university.edu/account/create",
+  "login_url": "https://apply.university.edu/login",
+  "application_url": "https://apply.university.edu/application",
+  "email_domain": "university.edu",
+  "requires_email_verification": true,
+  "field_mapping": {
+    "first_name": "#profile_first_name",
+    "last_name": "#profile_last_name",
+    "email": "#profile_email",
+    "phone": "#profile_phone",
+    "date_of_birth": "#profile_birth_date",
+    "address_line1": "#profile_address_1",
+    "city": "#profile_city",
+    "state": "#profile_state",
+    "postal_code": "#profile_zip"
+  }
+}

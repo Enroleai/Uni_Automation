@@ -1,0 +1,16 @@
+{
+  "name": "Slate-Based University",
+  "url": "https://admissions.university.edu",
+  "signup_url": "https://admissions.university.edu/register",
+  "login_url": "https://admissions.university.edu/apply",
+  "application_url": "https://admissions.university.edu/apply/status",
+  "email_domain": "university.edu",
+  "requires_email_verification": true,
+  "field_mapping": {
+    "first_name": "[name='first']",
+    "last_name": "[name='last']",
+    "email": "[name='email']",
+    "phone": "[name='mobile']",
+    "date_of_birth": "[name='birthdate']"
+  }
+}
